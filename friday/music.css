@@ -1,0 +1,61 @@
+header {
+  text-align: center;
+}
+
+.musicSite {
+  font-size: 39px;
+  font-weight: 1000;
+  margin: 19px 0 28px 0;
+  color: rgb(24, 24, 231);
+}
+
+li {
+  list-style: none;
+}
+
+.album {
+  width: 150px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 13%;
+  padding-right: 40px;
+}
+
+.musicList {
+  display: flex;
+  flex-direction: column;
+}
+
+.typo {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 25px 0;
+}
+
+.hov:hover {
+  background-color: rgb(255, 251, 0)
+}
+
+.title {
+  font-weight: 900;
+}
+
+.title_m {
+  font-weight: 900;
+  font-size: 13.5px;
+}
+
+.artist {
+  color: rgb(24, 24, 231);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.year {
+  color: silver;
+  font-size: 11px;
+  margin-top: 3px;
+}
